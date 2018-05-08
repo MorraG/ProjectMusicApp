@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Jovanotti"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/coversample" />
+
+    <TextView
+        android:id="@+id/igg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Jovanotti"
+        android:layout_marginLeft="48dp"
+        android:text="Oh, vita!"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/Dua_Lipa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/igg"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/coversample" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dua_Lipa"
+        android:layout_marginLeft="48dp"
+        android:text="One Kiss"
+        android:textSize="20sp" />
+</RelativeLayout>
