@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -27,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the music Activity
-                Intent mymusicIntent = new Intent(MainActivity.this, mymusic.class);
+                Intent mymusicIntent = new Intent(MainActivity.this, MyMusicActivity.class);
 
                 // Start the new activity
                 startActivity(mymusicIntent);

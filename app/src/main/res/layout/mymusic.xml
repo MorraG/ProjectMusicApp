@@ -5,8 +5,5 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/paddingOrMar_L"
-    android:paddingLeft="@dimen/paddingOrMar_L"
-    android:paddingRight="@dimen/paddingOrMar_L"
-    android:paddingTop="@dimen/paddingOrMar_L"
-    tools:context="com.example.android.projectmusicapp.mymusic"/>
+    android:padding="@dimen/paddingOrMar_L"
+    tools:context="com.example.android.projectmusicapp.MyMusicActivity"/>

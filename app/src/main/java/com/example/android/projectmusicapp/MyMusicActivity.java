@@ -5,7 +5,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class mymusic extends MainActivity
+public class MyMusicActivity extends MainActivity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
