@@ -8,14 +8,16 @@ public class Song
     private String mAutore;
     private String mCanzone;
     private String mAlbum;
+    private int imgid;
 
     // CONSTRUCTOR composto da tre parametri string.
     // Esteticamente è come la dichiarazione di un metodo col nome che deve corrispondere esattamente alla classe (Word)
     // non ha un return value
-    public Song (String Autore, String Canzone, String Album){
+    public Song (String Autore, String Canzone, String Album, int id ){
         mAutore = Autore;
         mCanzone = Canzone;
         mAlbum = Album;
+        imgid = id;
     }
 
     // METHODS
@@ -29,4 +31,5 @@ public class Song
         return mCanzone;
     }
     public String getmAlbum() { return mAlbum; }
+    public int  getImgid() { return imgid;}
 }

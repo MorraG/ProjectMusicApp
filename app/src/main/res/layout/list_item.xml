@@ -1,24 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="@dimen/paddingOrMar_XL">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/autore_text_view"
-        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="gino"/>
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="TextView" />
+
     <TextView
-        android:id="@+id/canzone_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="sei unico"/>
+    android:id="@+id/canzone_text_view"
+    android:textSize="14sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/autore_text_view"
+    android:layout_below="@+id/autore_text_view"
+    android:text="TextView" />
 
     <TextView
         android:id="@+id/album_text_view"
-        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="bellissimo album"/>
-</LinearLayout>
+        android:layout_alignStart="@+id/canzone_text_view"
+        android:layout_below="@+id/canzone_text_view"
+        android:text="TextView" />
+</RelativeLayout>
+
+
+
+

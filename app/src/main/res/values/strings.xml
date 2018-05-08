@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ProjectMusicApp</string>
     <string name="category_mymusic">My Music</string>
-    <string name="category_radio">Radio</string>
+    <string name="category_radio">Album Preferred</string>
     <string name="home_image">home-chiave-di-violino</string>
 
 </resources>

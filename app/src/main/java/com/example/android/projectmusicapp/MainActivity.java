@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the radio category
-        TextView radio = (TextView) findViewById(R.id.radio);
+        TextView radio = (TextView) findViewById(R.id.album);
 
         // Set a click listener on that View
         radio.setOnClickListener(new OnClickListener() {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View View) {
                 // create new intent to open the radio Activity
-                Intent radioIntent = new Intent(MainActivity.this, radio.class);
+                Intent radioIntent = new Intent(MainActivity.this, album.class);
 
                 // Start the new activity
                 startActivity(radioIntent);
